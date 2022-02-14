@@ -123,6 +123,10 @@ h2+p {
 	margin-top: 1em;
 }
 
+section+section {
+	margin-top: 1em;
+}
+
 address {
 	color: #111;
 	font-weight: normal;
