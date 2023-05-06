@@ -18,5 +18,12 @@ h1 {
     max-width: 80vw;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+}
+.gallery img {
+    padding: 10px;
+    border-radius: 30px;
+    /*border: 10px solid rgba(253, 228, 207, .5);*/
+    /*filter: drop-shadow(0 0 5px #f8a560);*/
+    filter: drop-shadow(0 0 10px #fbcba2);
 }
