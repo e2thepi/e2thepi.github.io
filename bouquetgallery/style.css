@@ -28,4 +28,5 @@ h1 {
     -webkit-filter: drop-shadow(0 0 10px #fbcba2);
     filter: drop-shadow(0 0 10px #fbcba2);
     overflow: scroll;
+    overflow-clip-margin: 0px;
 }
