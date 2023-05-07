@@ -15,23 +15,36 @@ h1 {
 .gallery {
     display: flex;
     flex-direction: row;
-    max-width: 80vw;
+    /*max-width: 90vw;*/
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    object-fit: contain;
 }
 .gallery img {
     padding: 10px;
     border-radius: 30px;
+    overflow: scroll;
+    /*object-fit: contain;
     /*border: 10px solid rgba(253, 228, 207, .5);*/
     /*filter: drop-shadow(0 0 5px #f8a560);*/
     /*-webkit-filter: drop-shadow(0 0 10px #fbcba2);
     filter: drop-shadow(0 0 10px #fbcba2);
-    overflow: scroll;
     overflow-clip-margin: 0px;*/
-    object-fit: contain;
 }
-@media screen and (max-width: 495px) {
+img.portrait {
+    max-width: 450px;
+    max-height: 600px;
+}
+img.landscape {
+    max-width: 600px;
+    max-height: 450px;
+}
+img.square {
+    max-width: 450px;
+    max-height: 450px;
+}
+/*@media screen and (max-width: 495px) {
     .gallery img { max-width: 450px;
     object-fit: contain;
     }
