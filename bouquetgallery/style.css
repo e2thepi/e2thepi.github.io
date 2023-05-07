@@ -4,11 +4,12 @@ body {
 .page-wrapper {
     margin:5vh 5vw;
 }
-h1 {
+h1, h2 {
     text-align: center;
 }
 #quote {
-    width: 50vw;
+    /*width: 50vw;*/
+    max-width: 500px;
     margin: auto;
     text-align: justify;
 }
@@ -27,22 +28,27 @@ h1 {
     overflow: scroll;
     /*object-fit: contain;
     /*border: 10px solid rgba(253, 228, 207, .5);*/
+    -webkit-filter: drop-shadow(0 0 10px #fbcba2);
     /*filter: drop-shadow(0 0 5px #f8a560);*/
-    /*-webkit-filter: drop-shadow(0 0 10px #fbcba2);
     filter: drop-shadow(0 0 10px #fbcba2);
-    overflow-clip-margin: 0px;*/
+    /*overflow-clip-margin: 0px;*/
 }
 img.portrait {
     max-width: 450px;
     max-height: 600px;
+    /*-webkit-mask-image: radial-gradient(ellipse, black 75%, rgba(0, 0, 0, .5) 50%);
+    mask-image: radial-gradient(ellipse, black 75%, rgba(0, 0, 0, .5) 50%);*/
 }
 img.landscape {
     max-width: 600px;
     max-height: 450px;
+    /*-webkit-mask-image: radial-gradient(ellipse, black 75%, rgba(0, 0, 0, .5) 50%);
+    mask-image: radial-gradient(ellipse, black 75%, rgba(0, 0, 0, .5) 50%);*/
 }
 img.square {
     max-width: 450px;
     max-height: 450px;
+    /*mask-image: radial-gradient(circle, black 75%, rgba(0, 0, 0, .5) 50%);*/
 }
 /*@media screen and (max-width: 495px) {
     .gallery img { max-width: 450px;
