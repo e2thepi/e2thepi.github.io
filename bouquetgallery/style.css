@@ -1,23 +1,48 @@
 body {
     background-color: #fde4cf;
+    font-family: 'Nobile', sans-serif;
+    font-size: 1rem;
 }
 .page-wrapper {
     margin:5vh 5vw;
 }
 h1, h2 {
     text-align: center;
+    margin: 0;
+}
+p {
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+p:last-child {
+    margin-bottom: 0;
 }
 h1 {
-    font-size: 2.75rem;
+    font-size: 5rem;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-family: 'The Girl Next Door', cursive;
 }
 h2 {
     font-size: 2.25rem;
+    font-family: 'Halant', serif;
 }
 #quote {
-    /*width: 50vw;*/
     max-width: 500px;
     margin: auto;
     text-align: justify;
+    background-color: #545677;
+    padding: 0 10px 10px 10px;
+}
+#quote h2 {
+    color: #ffffff;
+}
+.offer-text {
+    background-color: #ffffff;
+    padding: 5px 10px 10px 10px;
+    margin: 0;
 }
 .gallery {
     display: flex;
